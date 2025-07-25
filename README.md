@@ -1,43 +1,35 @@
-# Nextjs Starter Template
+# 🛠️ Next.js CRUD Application
 
-The Last Next.js starter template you will ever need.
+This project is a modern **CRUD (Create, Read, Update, Delete)** web application built with **Next.js App Router**, styled using **Tailwind CSS**, and powered by **shadcn/ui** for beautiful and accessible components. Data fetching and HTTP requests are handled seamlessly using **Ky**, a lightweight and elegant HTTP client.
 
-## Tech
+---
 
-- [React](https://react.dev/) - The library for web and native user interfaces!
-- [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework for rapid UI development.
-- [shadcn UI](https://ui.shadcn.com/) - A community-driven collection of custom UI components.
-- [Next.js](https://nextjs.org/) - The React Framework for Production.
+## 🚀 Features
 
-## Features
+- ✅ **Create, Read, Update, and Delete** operations for managing data
+- ⚡ Built with **Next.js App Router** and **Server Actions**
+- 🎨 **Tailwind CSS** for utility-first, responsive styling
+- 🧱 **shadcn/ui** for customizable UI components
+- 🌐 **Ky** for concise and readable HTTP requests
+- 💡 Fully responsive and accessible design
 
-- Dark Mode
-- Tailwind CSS
-- TypeScript
-- ESLint
-- Prettier
+---
 
-## Getting Started
+## 🧰 Tech Stack
 
-First, run the development server:
+- **Framework**: [Next.js (App Router)](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI Library**: [shadcn/ui](https://ui.shadcn.com/)
+- **HTTP Client**: [Ky](https://github.com/sindresorhus/ky)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## .env
+
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## Development
-
-Want to contribute? Great!
+API_URL="http://127.0.0.1:9055"
+NEXT_PUBLIC_API_URL="http://localhost:9055"
+```
 
 ## License
 
